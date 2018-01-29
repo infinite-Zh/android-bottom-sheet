@@ -29,11 +29,15 @@
         android:id="@+id/nestedScrollview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
         app:behavior_hideable="true"
+        android:clipToPadding="true"
+        app:behavior_peekHeight="0dp"
         app:layout_behavior="@string/bottom_sheet_behavior">
 
         <TextView
             android:layout_width="match_parent"
+            android:textColor="#ffffff"
             android:layout_height="wrap_content"
             android:lineSpacingMultiplier="2"
             android:text="@string/text_description"
