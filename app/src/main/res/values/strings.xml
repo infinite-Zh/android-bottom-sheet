@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BottomSheet</string>
+    <string name="text_description">Android 支持库软件包含可以添加至应用的多个库。每个库均支持特定范围的 Android 平台版本和功能。 本指南介绍了各支持库提供的重要功能和版本支持，从而帮助您决定在应用中添加哪些支持库。一般而言，我们建议添加 v4 支持库和 v7 appcompat 库，因为它们支持一系列 Android 版本，并且可以为推荐的用户界面模式提供 API。 要使用以下任一库，您必须将库文件下载到 Android SDK 安装位置中。请按照支持库设置中下载支持库的说明完成此步骤。要在应用中添加特定支持库，您还必须执行其他步骤。有关如何在应用中添加支持库的重要信息，请参阅下面各个库内容的末尾部分。</string>
+</resources>
