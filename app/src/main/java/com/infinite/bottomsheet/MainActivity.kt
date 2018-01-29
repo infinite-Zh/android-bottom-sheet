@@ -14,5 +14,9 @@ class MainActivity : AppCompatActivity() {
             intent = Intent(this@MainActivity, BottomSheetActivity::class.java)
             startActivity(intent)
         })
+        btn_bottom_sheet_fragment.setOnClickListener({
+            intent = Intent(this@MainActivity, BottomSheetFragmentActivity::class.java)
+            startActivity(intent)
+        })
     }
 }

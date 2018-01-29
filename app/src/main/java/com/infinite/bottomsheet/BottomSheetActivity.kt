@@ -37,11 +37,11 @@ class BottomSheetActivity : AppCompatActivity() {
 
             override fun onStateChanged(bottomSheet: View, newState: Int) {
                 when (newState) {
-                    BottomSheetBehavior.STATE_COLLAPSED -> Log.d(TAG,"STATE_COLLAPSED")
-                    BottomSheetBehavior.STATE_EXPANDED -> Log.d(TAG,"STATE_EXPANDED")
-                    BottomSheetBehavior.STATE_DRAGGING -> Log.d(TAG,"STATE_DRAGGING")
-                    BottomSheetBehavior.STATE_HIDDEN -> Log.d(TAG,"STATE_HIDDEN")
-                    BottomSheetBehavior.STATE_SETTLING -> Log.d(TAG,"STATE_SETTLING")
+                    BottomSheetBehavior.STATE_COLLAPSED -> Log.d(TAG, "STATE_COLLAPSED")
+                    BottomSheetBehavior.STATE_EXPANDED -> Log.d(TAG, "STATE_EXPANDED")
+                    BottomSheetBehavior.STATE_DRAGGING -> Log.d(TAG, "STATE_DRAGGING")
+                    BottomSheetBehavior.STATE_HIDDEN -> Log.d(TAG, "STATE_HIDDEN")
+                    BottomSheetBehavior.STATE_SETTLING -> Log.d(TAG, "STATE_SETTLING")
                 }
             }
         })
